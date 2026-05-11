@@ -7,7 +7,7 @@ body{
     margin: 0%;
 }
 
-.myProjects{
+#webprojects{
      border-radius: 15px;
     margin: 20px;
     margin-top: 120px;
@@ -17,6 +17,9 @@ body{
     
 }
 
+
 h3{
     padding-left: 50px;
+    
 }
+
