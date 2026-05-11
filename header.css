@@ -4,6 +4,8 @@
     background-repeat: no-repeat;
     background-size: cover; /*important*/
     max-width: 100%;
+    min-width: 100%;
+    width: 100%;
     height: 450px;
     
 }
@@ -42,7 +44,22 @@
     cursor: pointer; /* Use this to turn cursor to pointer👆 */
 }
 
+a{
+    text-decoration: none;
+    color: rgb(1, 89, 107);
+}
+
+a:hover{ /*value of anchors if ma hover sa mouse*/
+    color: rgb(159, 193, 199);
+}
+
+a:active{
+    color: rgb(252, 252, 252);
+} /*value of an anchor if ma click*/
+
+
 .line{
+
     width: 100%;
     height: 15px;
     background: linear-gradient(to left, rgb(193, 233, 246), aqua);
