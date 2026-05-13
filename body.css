@@ -1,25 +1,55 @@
-html{
-    scroll-behavior: smooth;
-}
+    html{
+        scroll-behavior: smooth;
+    }
 
-body{
-    padding: 0;
-    margin: 0%;
-}
+  
+    body{
+        padding: 0;
+        margin: 0%;
+        background:linear-gradient(to top, rgb(212, 255, 255) ,white)
+    }
 
-#webprojects{
-     border-radius: 15px;
-    margin: 20px;
-    margin-top: 120px;
-    padding-top: 10px;
-    background: linear-gradient(to top, rgb(175, 247, 247), white);
-    padding: 10px;
-    
-}
+    .bio{
+        margin-top: 120px;
+        margin-left: 20px;
+        padding: 10px;
+        background-color: rgb(252, 229, 200);
+        border-radius: 15px;
+
+    }
+
+    .bio p{
+        padding: 10px;
+        font-size:18px;
+    }
+
+    .bio img{
+        min-width: 100px;
+        max-width: 600px;
+        max-height: 300px;
+        display: block;
+        margin: 0 auto;
+        transition: transform 0.2s ease;
+        
+    }
+
+    img:hover{
+        transform: scale(1.1);
+    }
+
+    #webprojects{
+        border-radius: 15px;
+        margin: 20px;
+        margin-top: 120px;
+        padding-top: 10px;
+        background-color: rgb(252, 229, 200);
+        padding: 10px;
+        
+    }
 
 
-h3{
-    padding-left: 50px;
-    
-}
+    h3{
+        padding-left: 50px;
+        
+    }
 
