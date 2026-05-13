@@ -1,3 +1,6 @@
+
+    
+
 .headerbg{
     background: url('soju.jpg');
     background-position: center;
@@ -6,20 +9,39 @@
     max-width: 100%;
     min-width: 100%;
     width: 100%;
-    height: 450px;
+    max-height: 450px;
     
 }
 
+#name a{
+    color: white !important;
+}
+
+#name{
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+#name:hover{
+    transform:scale(1.1);
+}
+
 .profilePhoto{
-    width: 200px;
+    max-width: 200px;
     border-radius: 50%;
     margin-top: 350px ;
-    margin-left: 50px;
+    margin-left: 5%;
     padding: 3px;
     border-color: rgb(91, 250, 250);
     border-width: 10px;
     border-style: solid;
+    transition: transform 0.3s ease; /*Allan tun i ni  */
     
+}
+
+.profilePhoto:hover{
+    transform: scale(1.1); /* kani pod */
+    cursor: pointer;
 }
 
 .headerpanel{
@@ -37,6 +59,7 @@
 }
 
 .profile-nav, ul{
+    margin-left: -10px;
     color: rgb(1, 89, 107);
     display: flex;
     flex-direction: row;
@@ -60,8 +83,8 @@ a:active{
 
 .line{
 
-    width: 100%;
-    height: 15px;
+    max-width: 100%;
+    max-height: 15px;
     background: linear-gradient(to left, rgb(193, 233, 246), aqua);
 }
 
